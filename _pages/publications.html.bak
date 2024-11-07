@@ -1,0 +1,42 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">This page highlights some of my more recent and relevant publications. <br>A complete list of publications can be found on my <a href="{{site.author.googlescholar}}">Google Scholar</a> page.</div>
+{% endif %}
+
+{% include base_path %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<hr>
+
+<h1 id="patents">
+    Patents
+</h1>
+
+<p><strong>Y. Zhang</strong>, T, Wik, C, Zou. “” EU Patent App. 18/673,707, 2024/06/14</p>
+<p><strong>Y. Zhang</strong>, T, Wik, C, Zou. “” EU Patent App. 63/469,269, 2023/05/09</p>

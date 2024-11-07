@@ -1,49 +1,59 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I'm a technical specialist and industrial PhD at [Zeekr Technology Europe](https://www.zeekrtech.eu/), affiliated with the Automatic Control research group at [Chalmers University of Technology](https://www.chalmers.se/en/). My journey in the automotive industry started right after my master's graduation, where I began as a Battery Software Engineer at [National Electric Vehicle Sweden (NEVS)](https://www.nevs.com/). Since then, I've worn multiple hats—from Software Engineer to System Engineer, Validation Engineer, and Technical Specialist—all in the electrifying world of battery technology.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My passion lies in the intersection of data science and battery technology. I specialize in leveraging data-driven methods for battery aging diagnostics and prognostics. I'm particularly fascinated by how smart analytics can help understand, predict, and ultimately extend the lifespan of traction batteries for electrified vehicles and battery energy storage systems. Through my research and projects, I aim to push the boundaries of battery performance and help pave the way for more sustainable, efficient mobility and energy storage solutions.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I thrive on solving real-world challenges with innovative technology, and I love exploring new ways to make batteries not only last longer but also work smarter.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### Get in Touch
+If you'd like to discuss anything related to batteries, electric vehicles, energy storage, or the intersection of industry and academia, I'd be delighted to connect. Feel free to reach out to me at: yizhou[at] chalmers [dot] se.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Short Bio
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### Education
 
-**Markdown generator**
+- Ph.D. Electrical Engineering, *Chalmers University of Technology*,  2024
+  - *Thesis*: "[Data-driven battery aging diagnostics and lifetime extension]"
+- M.Sc. Electrical Engineering, *Royal Institute of Technology (KTH)*, 2016
+  - *Specializations*: Smart Electrical Networks and Systems affiliated with EIT InnoEnergy
+- M.Sc. Electrical Engineering, *Catholic University of Leuven (KU Leuven)*, 2016
+  - *Thesis*: "Modularized battery management systems for Lithium-Ion battery packs in EVs"
+- B.Sc. Electrical Engineering, *Southeast University*, 2014
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### Professional Experiences
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **Technical Specialist & Industrial PhD Student**  
+  *China Euro Vehicle Technology AB, Sweden*  
+  **2020 - Present**  
+  - Design and develop innovative battery aging estimation and prediction methods using real-world fleet data.  
+  - Develop health-conscious fast charging strategies.  
+  - Design and evaluate next-generation battery systems.  
+  - Conduct long-term battery cell lifetime evaluation tests.  
+  - Perform commercial cell opening, post-mortem analysis, and assemble three-electrode cells.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+- **Battery System Validation Engineer**  
+  *China Euro Vehicle Technology AB, Sweden*  
+  **2017 - 2020**  
+  - Established battery test benches and battery management system hardware-in-the-loop systems from scratch.  
+  - Conducted battery pack testing and comprehensive battery system verification on vehicles.  
+  - Executed hardware-in-the-loop tests for battery management systems.  
+  - Validated battery software functionality.  
+  - Participated in vehicle winter/summer expeditions to verify complete high voltage systems.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **Battery Software Engineer**  
+  *National Electric Vehicle Sweden (NEVS), Trollhättan, Sweden*  
+  **2016 - 2017**  
+  - Developed model-based battery control software for battery management systems.  
+  - Led the design and development of battery pack state of charge estimation software, open circuit voltage estimation algorithms, and resistance estimation algorithms.  
+  - Integrated and verified software (application layer and basic software).
+
+
+
