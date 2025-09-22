@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m the Co-founder and CEO of VoltSight AI, a company dedicated to developing intelligent battery management solutions powered by advanced data-driven methods and artificial intelligence. At [VoltSight AI](https://www.voltsightai.com/), our mission is to enhance the performance, safety, and lifetime of lithium-ion batteries for electric vehicles and energy storage systems.
+I’m the Co-founder and CEO of [VoltSight AI](https://www.voltsightai.com/), a company dedicated to developing intelligent battery management solutions powered by advanced data-driven methods and artificial intelligence. At [VoltSight AI](https://www.voltsightai.com/), our mission is to enhance the performance, safety, and lifetime of lithium-ion batteries for electric vehicles and energy storage systems.
 
 Before starting my entrepreneurial journey, I worked as a Technical Specialist and Industrial PhD at [Zeekr Technology Europe](https://www.zeekrtech.eu/), affiliated with the Automatic Control research group at [Chalmers University of Technology](https://www.chalmers.se/en/). My career in the automotive industry began right after my master's graduation, where I began as a Battery Software Engineer at [National Electric Vehicle Sweden (NEVS)](https://www.nevs.com/). Since then, I've worn multiple hats—from Software Engineer to System Engineer, Validation Engineer, and Technical Specialist—all in the electrifying world of battery technology.
 
@@ -31,10 +31,18 @@ If you'd like to discuss anything related to batteries, electric vehicles, energ
 - B.Sc. Electrical Engineering, *Southeast University*, 2014
 
 ### Professional Experiences
-
+- **CEO and Co-founder**  
+  *VoltSight AI, Sweden*  
+  **2024 - Present**  
+  - Lead company vision and strategy to develop intelligent battery management solutions for electric vehicles and energy storage systems.
+	- Oversee product development of AI-driven tools for battery health diagnostics, lifetime prediction, and performance optimization.
+	- Build partnerships with automotive and energy industry stakeholders to accelerate adoption of advanced battery intelligence solutions.
+	- Manage business operations including fundraising, customer engagement, and strategic growth planning.
+	- Translate academic research and industrial expertise into commercial products that enhance safety, performance, and sustainability of lithium-ion batteries.
+    
 - **Technical Specialist & Industrial PhD Student**  
   *China Euro Vehicle Technology AB, Sweden*  
-  **2020 - Present**  
+  **2020 - 2025**  
   - Design and develop innovative battery aging estimation and prediction methods using real-world fleet data.  
   - Develop health-conscious fast charging strategies.  
   - Design and evaluate next-generation battery systems.  
